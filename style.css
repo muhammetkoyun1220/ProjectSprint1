@@ -1,0 +1,371 @@
+body {
+  /*burada arka plan olarak bir resim koydum  */
+  background-color: #62b8bd;
+  background-image: url("renk1.jpg");
+  background-size: cover;
+ 
+ }
+
+.head h1{
+  /*Sloganımın yazı tipi , rengi ve konumunu belirledim  */
+  font-family: Lucida Handwriting;
+  text-align: center;
+  color: blue;
+
+}
+
+.logo{
+  /*logoyu ayarladım  */
+float: left; 
+  width: 15%;
+  height: 15%;
+
+}
+
+ .navigationBar{
+  /*bu kısımda navigation bar ve genel stylelarını ouşturdum  */
+  width: 70%;
+  box-sizing: border-box;
+  padding: 5px;
+  background-color:#06899e;
+
+  text-align: right;
+  margin-top: 75px;
+  margin-left: 10px;
+  display: block;
+
+}
+
+
+nav ul {
+  /* Navigation bardaki her hücre için ayarlama yaptım */
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+   
+
+}
+
+
+nav ul li {
+  /* hüdre içi öteleme yaptım */
+  margin:  10px;
+
+}
+
+nav ul li a {
+  /* hücrelerdeki yazı styleları oluşturdum */
+  color: skyblue;
+  text-decoration:none ;
+}
+
+nav ul li a:hover{
+  /* imleç inhücreye gelmesi durumunda bir hover oluşturdum*/
+  color: black;
+  background-color: yellowgreen;
+  border-radius: 8px;
+}
+
+/* Genel olarak anasayfa divlerininstylelarını gerçekleştirdim */
+
+.anasayfaDiv1{
+  margin-left: 50px;
+  margin-top: 150px;
+display: flex;
+  align-items: center;
+
+    height: 200px;
+    width: 800px;
+}
+
+
+.anasayfaDiv1{
+  background-color: #faf31f;
+  border-radius: 30px;
+}
+
+
+.anasayfaFoto1{
+  width: 250px;
+  height: 200px;
+  padding-left: 50px;
+ padding-top: 00px;
+}
+.anasayfaText1{
+  float: left;
+}
+
+.anasayfaText1 h1{
+
+color: blue;
+  font-weight: bold;
+width: 400px;
+
+}
+.anasayfaText1 h3{
+  font-style: italic;
+}
+
+
+
+
+.anasayfaDiv2{
+   background-color: red;
+  border-radius: 30px;
+   margin-left: 500px;
+  margin-top: 100px;
+  width: 900px;
+  height: 230px;
+}
+ 
+
+.anasayfaFoto2{
+margin-left: 50px;
+  width: 300px;
+  height: 230px;
+ padding-top: 00px;
+}
+
+  
+
+
+.anasayfaText2{
+  float: left;
+}
+
+.anasayfaText2 h1{
+
+color: blue;
+  font-weight: bold;
+width: 400px;
+
+}
+.anasayfaText2 h3{
+  font-style: italic;
+}
+
+
+
+.anasayfaDiv3{
+  margin-top: 100px;
+  width: 900px;
+  height: 230px;
+  background-color: #ff8900;
+  border-radius: 30px;
+}
+
+
+.anasayfaFoto3{
+  width: 250px;
+  height: 230px;
+  padding-left: 50px;
+ padding-top: 00px;
+}
+.anasayfaText3{
+  float: left;
+}
+
+.anasayfaText3 h1{
+
+color: blue;
+  font-weight: bold;
+width: 400px;
+
+}
+.anasayfaText3 h3{
+  font-style: italic;
+}
+
+/* burada facebook ve instagram için bir yönlendirme oluşturdum */
+.yonlendirme .yonlendirme1{
+  position: absolute;
+  top: 100px;
+  left: 970px;
+
+}
+
+
+
+
+
+
+
+ /* etkinlik sayfası ve stylelarının fotograf ve textleriyle birlikte şekillendirdim */
+.ekinliksayfası1{
+margin-left: 0px;
+
+  background-color: darkred;
+  margin-top: 100px;
+border: solid 5px orange;
+border-radius: 25px;
+width: 500px;
+}
+
+.etkinliksayfaFoto1{
+  padding-left: 50px;
+  width: 400px;
+    border-radius: 20px;
+
+
+  height: 300px;
+}
+
+.etkinliksayfasıText1 h2{
+  padding-left: 55px;
+  font-size: 30px;
+    font-style: italic;
+    color: orange;
+}
+
+
+
+
+
+.ekinliksayfası2{
+  margin: auto;
+ padding-left: 20px;
+  margin-top: 200px;
+  background-color: orange;
+  margin-top: 50px;
+border: solid 5px darkblue;
+border-radius: 25px;
+width: 500px;
+}
+
+.etkinliksayfaFoto2{
+  padding-left: 50px;
+  border-radius: 20px;
+  width: 400px;
+  height: 300px;
+}
+
+.etkinliksayfasıText2 h2{
+  padding-left: 150px;
+  font-size: 30px;
+    font-style: italic;
+    color: darkblue;
+}
+
+
+.ekinliksayfası3{
+  position: absolute;
+ top: 300px;
+ left: 1000px;
+  background-color:#4cbaf9;
+border: solid 5px red;
+border-radius: 25px;
+width: 500px;
+}
+
+.etkinliksayfaFoto3{
+  padding-left: 50px;
+  width: 400px;
+    border-radius: 20px;
+  height: 300px;
+}
+
+.etkinliksayfasıText3 h2{
+  padding-left: 80px;
+  font-size: 30px;
+    font-style: italic;
+    color: darkblue;
+}
+
+
+
+/*Resimleri sıralı ve güzel bir şekilde belirlemek için container kullandım */
+.container {
+
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 10px; 
+}
+
+.oyuncak {
+     border-radius: 30px ;
+ text-align: center;
+}
+  /* container daki resimler için ayarlama yaptım */
+.oyuncak img {
+  width: 300px;
+  height: 300px;
+}
+
+.oyuncak p {
+  /* Açıklamalar için ayarlamalar yaptım */
+  margin-top: 5px;
+  font-size: 30px;
+  color: black;
+    font-weight: bold;
+font-style: italic;
+}
+
+
+/*İletisim sayfası için de Oyuncalar sayfasındaki gibi bir grid kullandım*/
+
+.iletisimSayfası {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 10px; 
+}
+
+/* şikayetler için bir form oluşturdum */
+.iletisim form {
+     border-radius: 30px ;
+ text-align: center;
+}
+
+.iletisimSayfası .iletisim h1,h2,h3,p{
+      font-weight: bold;
+      color: darkblue;
+}
+
+.iletisimSayfası .iletisim h2{
+  color: black;
+}
+
+.iletisimSayfası .iletisim h1{
+  color: red;
+}
+
+
+
+.iletisimSayfası .sikayetForm h2{
+    color: black;
+
+}
+
+.iletisimSayfası .sikayetForm label{
+  color: black;
+        font-weight: bold;
+
+}
+ 
+    /*hikaye sayfası için gereken ayarlamaları yaptım */
+.hikaye{
+  border: solid black 3px;
+  width: 600px;
+  height: 800px;
+  margin-left: 300px;
+  margin-top: 100px;
+  background-color: skyblue;
+}
+
+.hikaye h1{
+  color: red;
+}
+.hikaye .hikayeOzet{
+  color: black;
+  font-size: 22px;
+}
+
+.hikaye h2{
+  color: darkblue;
+  font-family: Lucida Handwriting; 
+  float: right;
+  padding-right: 30px;
+}
